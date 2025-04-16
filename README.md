@@ -11,7 +11,7 @@ A full-stack expense tracking application built with **React**, **Node.js**, **E
 - ✅ Dashboard with total expenses summary
 - ✅ Responsive design with Tailwind CSS
 - ✅ Persistent data using MongoDB
-- ✅ RESTful API built with Express
+- ✅ Express
 
 ---
 
@@ -30,29 +30,17 @@ A full-stack expense tracking application built with **React**, **Node.js**, **E
 ---
 
 ## 📦 Folder Structure
+![Screenshot 2025-04-15 233032](https://github.com/user-attachments/assets/1268fc21-9f56-4e09-a8c5-0b28a46a0189)
+![Screenshot 2025-04-15 233117](https://github.com/user-attachments/assets/3b77dbfb-0393-4445-84e2-a3a533666381)
+![Screenshot 2025-04-15 233136](https://github.com/user-attachments/assets/8bc19f87-130d-4983-bed4-8b5eba2288ef)
+![Screenshot 2025-04-15 233148](https://github.com/user-attachments/assets/0999f5ba-92b8-48fc-95eb-41e18bd05ed0)
 
-```
-Expense-Tracker-FullStack/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── index.css
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-```
-
----
 
 ## 📸 Screenshots
+![Screenshot 2025-04-15 150205](https://github.com/user-attachments/assets/1233c5f4-918d-4bcb-91dd-97397f5b8393)
+![Screenshot 2025-04-15 150152](https://github.com/user-attachments/assets/2d18a290-7b2b-45e0-9485-1aa705fd34fb)
 
-> _You can add your app’s UI screenshots here_
 
----
 
 ## 📍 Getting Started
 
@@ -69,7 +57,7 @@ cd Expense-Tracker-FullStack
 cd backend
 npm install
 # Add your MongoDB connection string to a `.env` file
-npm start
+npm run dev
 ```
 
 ### 3. Set Up Frontend
@@ -77,7 +65,7 @@ npm start
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 ---
@@ -99,9 +87,7 @@ Feel free to fork the repo, submit issues, or send pull requests!
 
 ---
 
-## 📜 License
 
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
